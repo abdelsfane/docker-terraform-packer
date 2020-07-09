@@ -1,6 +1,6 @@
 FROM alpine:3.7
 MAINTAINER Kevin Law <kevin@stealsyour.pw>
-ARG tf_version="0.12.0"
+ARG tf_version="0.12.28"
 ARG pk_version="1.4.1"
 RUN apk update
 RUN apk upgrade
